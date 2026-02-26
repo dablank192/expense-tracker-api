@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (DB credentials, secret keys)
+.env
+.env.*
+
+# Logs
+*.log
+
+# Database dump files
+*.sql
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+
+#Database(sqlite)
+*.db
+*.sqlite
+*.sqlite3
