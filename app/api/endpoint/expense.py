@@ -1,5 +1,5 @@
 from fastapi import Depends, APIRouter, Query, status
-from app.models_and_schemas import models
+from app.models import models
 from app.core import security
 from app.repositories import expense_repo
 from typing import Annotated

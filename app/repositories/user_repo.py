@@ -1,5 +1,5 @@
 from app.db import database
-from app.models_and_schemas import models
+from app.models import models
 from fastapi import HTTPException, status
 from app.utils import helpers
 from sqlmodel import select

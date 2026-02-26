@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from app.models_and_schemas import models
+from app.models import models
 from app.repositories.user_repo import User
 from typing import Annotated
 from fastapi.security import OAuth2PasswordRequestForm

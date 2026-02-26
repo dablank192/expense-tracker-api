@@ -1,6 +1,6 @@
 from sqlmodel import select
 from app.db import database
-from app.models_and_schemas import models
+from app.models import models
 from fastapi import HTTPException, status
 
 class Expense:

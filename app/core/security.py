@@ -7,7 +7,7 @@ import jwt
 from jwt.exceptions import InvalidTokenError
 from app.db.database import SessionDep
 from app.core import config
-from app.models_and_schemas import models
+from app.models import models
 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/login")
